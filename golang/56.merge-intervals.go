@@ -7,7 +7,7 @@ package main
 
 // @lc code=start
 
-func merge(intervals [][]int) [][]int {
+func merge1(intervals [][]int) [][]int {
 
 	if len(intervals) == 0 {
 		return intervals
